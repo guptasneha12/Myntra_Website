@@ -1,0 +1,108 @@
+.shop-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 800px; /* Fixed width for the sidebar */
+    height: 1000px;
+    overflow-y: auto;
+    background-color: #fd913c;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .category h3 {
+    margin-bottom: 10px;
+  }
+  
+  .category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category ul li {
+    margin-bottom: 8px;
+  }
+  
+  .category ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    padding: 0px -50px;
+  }
+  
+  .category ul li a:hover {
+    color: #007bff;
+  }
+  
+  .main-content {
+    /* flex-grow: 1; */
+    padding: 5px 200px;
+    
+  }
+  
+  .main-content h1 {
+    color: #f13ab1;
+  }
+  
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between images */
+  }
+  
+  .image-item {
+    width: calc(50% - 10px); /* Set width to 50% minus margin to create two images per row */
+    margin-bottom: 20px; /* Optional: Adjust margin between rows */
+  }
+  
+  .item-container {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .image-item img {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container without stretching */
+  }
+  
+  .buy-button {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .buy-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+.buy-button .down{
+margin-top: 5px;
+}
+
+  @media (max-width: 768px) {
+    .image-item {
+      width: 100%; /* Display one image per row on smaller screens */
+    }
+  }
+  

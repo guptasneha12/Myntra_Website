@@ -1,0 +1,117 @@
+.darkBg {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100; /* Ensure it's above other content */
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* Adjust width as per your design */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  width: 100%;
+  background-color: white;
+  color: #333;
+  z-index: 101; /* Ensure modal appears above the background */
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Added position relative for absolute positioning within it */
+}
+
+.modalHeader {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.heading {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background: rgb(10, 60, 223);
+  transition: all 0.25s ease;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+  position: absolute;
+  top: 10px; /* Position at the top */
+  right: 10px; /* Position at the right */
+}
+
+.closeBtn:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  transform: translate(-4px, 4px);
+}
+
+.modalContent {
+  padding: 20px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logOutBtn,
+.cancelBtn {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.logOutBtn {
+  color: #fff;
+  background: #ff3e4e;
+  margin-left: 10px; /* Add space to the left */
+}
+
+.logOutBtn:hover {
+  background: #ff5f71;
+}
+
+.cancelBtn {
+  color: #555;
+  background: #ddd;
+  margin-right: 10px; /* Add space to the right */
+}
+
+.cancelBtn:hover {
+  background: #ccc;
+}

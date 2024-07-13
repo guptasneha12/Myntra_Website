@@ -1,0 +1,46 @@
+.signIn{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsSJHhwvHl99pb3NAtFck2x0dKw7I9kNYyg2HaO_5hMdD9ru_S");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.loginForm{
+    background-color: #e3a854;
+    padding: 25px;
+    border:2px solid rgb(170, 134, 134);
+    border-radius: 1px;
+}
+
+
+.signUpLogo{
+    width: 200px;
+    object-fit: contain;
+    padding: 1px 0px;
+    margin-bottom: -30px;
+    margin-top: -25px;
+}
+
+
+.loginForm2{
+    background-color: #e66190;
+    padding: 30px;
+    margin-top: 3px;
+    border:2px solid rgb(170, 134, 134);
+    border-radius: 1px;
+}
+
+#login-btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    
+    cursor: pointer;
+    margin-top: 8px;
+}

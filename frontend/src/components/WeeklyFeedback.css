@@ -1,0 +1,78 @@
+.createPost1 {
+  max-width: 1000px; /* Increased width */
+  margin: 30px auto; /* Added more margin for spacing */
+  border: 1px solid #f13ab1; /* Border around the overall container */
+  border-radius: 8px; /* Rounded corners for the container */
+  padding: 70px; /* Increased padding inside the container */
+  background-color: #fd913c /* Optional: Background color for the container */
+}
+
+.post-header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #f13ab1; /* Border between heading and the rest */
+  padding-bottom: 15px; /* Increased padding to create space between heading and border */
+  margin-bottom: 20px; /* Added margin to separate header from content */
+}
+
+#post-btn1 {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Increased padding for better button appearance */
+  cursor: pointer;
+  border-radius: 4px; /* Added border radius for rounded corners */
+  font-size: 16px; /* Increased font size */
+}
+
+#post-btn1:hover {
+  background-color: #0056b3; /* Added hover effect */
+}
+
+.main-div1 {
+  margin-top: 30px; /* Increased margin for better spacing */
+  border-bottom: 3px solid #f13ab1; /* Border between image/video preview and caption */
+  padding-bottom: 20px; /* Padding to create space between preview and border */
+}
+
+
+
+.details1 {
+  margin-top: 30px; /* Increased margin for better spacing */
+}
+
+.card-header1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #f13ab1; /* Border between user info and caption */
+  padding-bottom: 15px; /* Increased padding to create space between user info and border */
+  margin-bottom: 20px; /* Added margin to separate header from content */
+}
+
+
+
+.card-header1 h5 {
+  margin-left: 15px; /* Added margin to separate text from image */
+  font-size: 18px; /* Increased font size */
+  padding-left: 130px;
+  justify-content: center;
+}
+
+.text {
+  width: 80%;
+  margin-top: 10px;
+  justify-content: center;
+  /* Increased padding */
+  padding-left: 20px;
+  
+  margin: 20px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 4px;
+  resize: none;
+  background-color: #fff; /* Background color for the textarea */
+  font-size: 16px; /* Increased font size */
+  min-height: 100px; /* Set minimum height */
+}
+
+

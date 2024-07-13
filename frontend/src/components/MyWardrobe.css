@@ -1,0 +1,19 @@
+.mywardrobe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .image-container {
+    cursor: pointer;
+    padding-top: 50px;
+  }
+  
+  .image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
